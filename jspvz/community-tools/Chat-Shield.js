@@ -32,7 +32,7 @@ window["oChat"] = { // 配置，可更改
 	Show_Invalid_Chat: false // 用颜色提示、显示出未开屏蔽者无法收到的消息
 };
 
-(function(){ // 本次翻新目标：做到释放内存！
+(function(){
 	let CV = top["oChat"]["View"], CS = top["oChat"]["Send"], ToStrEval = (f, n, i) => {i["eval"](n + "=" + f["toString"]()); return i;}, Tp = top, Wd = window;
 	let Make_New_Chat = () => { // 制造新消息
 		let Tp = top, Wd = window;
