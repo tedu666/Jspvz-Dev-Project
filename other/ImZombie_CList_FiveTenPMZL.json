@@ -1,0 +1,217 @@
+[{
+    "Level_Picture": "images/interface/woshijiangshi.png",
+    "From": "JSPVZ - 旁门五杰系列",
+    "Creator": "白鹤亮翅",
+    "Difficulty": "5",
+    "Murmur": "c234214b",
+    "ID": "16553",
+    "MapKind": "0",
+    "SunNum": "350",
+    "Title": "[旁门五杰01]1",
+    "C": "1209130914021130152245044111422343234405510652115304540955092509350934093209310621232206331123012422",
+    "More_Opt": {
+        "Deny_Use_Zombie": ["oBalloonZombie", "oBucketheadZombie"]
+    }
+}, {
+    "Level_Picture": "images/interface/woshijiangshi.png",
+    "From": "JSPVZ - 旁门五杰系列",
+    "Creator": "白鹤亮翅",
+    "Difficulty": "5",
+    "Murmur": "5cb7cc47",
+    "ID": "16554",
+    "MapKind": "0",
+    "SunNum": "150",
+    "Title": "[旁门五杰02]",
+    "C": "5109520953045409552241064229430544074507321433143406350931221402240213092309110225071506120721062201",
+    "More_Opt": {
+        "Deny_Use_Zombie": ["oBalloonZombie", "oZombie", "oScreenDoorZombie", "oDancingZombie"]
+    }
+}, {
+    "Level_Picture": "images/interface/woshijiangshi.png",
+    "From": "JSPVZ - 旁门五杰系列",
+    "Creator": "白鹤亮翅",
+    "Difficulty": "7",
+    "Murmur": "ae671ccd",
+    "ID": "16595",
+    "MapKind": "0",
+    "SunNum": "250",
+    "Title": "[旁门五杰03]",
+    "C": "2209240123011301121111091406150235223404321133092122310225224507440743054106420953115218510654095509",
+    "More_Opt": {
+        "Deny_Use_Zombie": ["oBalloonZombie", "oScreenDoorZombie"]
+    }
+}, {
+    "Level_Picture": "images/interface/woshijiangshi.png",
+    "From": "JSPVZ - 旁门五杰系列",
+    "Creator": "白鹤亮翅",
+    "Difficulty": "7",
+    "Murmur": "6d40c59b",
+    "ID": "16596",
+    "MapKind": "0",
+    "SunNum": "350",
+    "Title": "[旁门五杰04].科技的力量",
+    "C": "142416061302121811051522441845014609411142094306220621022602240923012511512452065311540555075607310933063622320134093511",
+    "More_Opt": {
+        "Deny_Use_Zombie": ["oBalloonZombie", "oDancingZombie"]
+    }
+}, {
+    "Level_Picture": "images/interface/woshijiangshi.png",
+    "From": "JSPVZ - 旁门五杰系列",
+    "Creator": "嘿嘿黑黑",
+    "Difficulty": "6",
+    "Murmur": "46e24379",
+    "ID": "16597",
+    "MapKind": "0",
+    "SunNum": "150",
+    "Title": "[旁门五杰05].冷冷的冰豆在脸上胡乱的拍",
+    "C": "121421142214421443144414450646064122242323042504110613061424151416025602360235183206330631243424510652225322540655042622",
+    "More_Opt": {
+        "Deny_Use_Zombie": ["oBalloonZombie"]
+    }
+}
+
+
+, 
+
+
+{
+    "Level_Picture": "images/interface/woshijiangshi.png",
+    "From": "JSPVZ - 珍珑十绝系列",
+    "Creator": "嘿嘿黑黑",
+    "Difficulty": "7",
+    "Murmur": "e5766610",
+    "ID": "16490",
+    "MapKind": "0",
+    "SunNum": "150",
+    "Title": "[珍珑01].六11重置版",
+    "C": "412442091111121413141414150916144309441145094611510152195301542355065602210631063206220623063319342325063506360424022602",
+    "More_Opt": {
+        "Deny_Use_Zombie": ["oBalloonZombie", "oDancingZombie"]
+    }
+}, {
+    "Level_Picture": "images/interface/woshijiangshi.png",
+    "From": "JSPVZ - 珍珑十绝系列",
+    "Creator": "snz",
+    "Difficulty": "5",
+    "Murmur": "73348784",
+    "ID": "16494",
+    "MapKind": "0",
+    "SunNum": "350",
+    "Title": "[珍珑02].九层高塔第八层",
+    "C": "250226024602550256023504452236224404342424245424120632064306110621064106510616221524143013302330333022304230523053303130",
+    "More_Opt": {
+        "Deny_Use_Zombie": ["oBalloonZombie"]
+    }
+}, {
+    "Level_Picture": "images/interface/woshijiangshi.png",
+    "From": "JSPVZ - 珍珑十绝系列",
+    "Creator": "白鹤亮翅",
+    "Difficulty": "6",
+    "Murmur": "ef14997",
+    "ID": "16497",
+    "MapKind": "0",
+    "SunNum": "150",
+    "Title": "[珍珑03].嘿嘿黑黑的某关卡削弱版",
+    "C": "250234025602351133113111320736075522540753045101521141094209430644014509460621062206230624062623160914091501130612221122",
+    "More_Opt": {
+        "Deny_Use_Zombie": ["oBalloonZombie"]
+    }
+}, {
+    "Level_Picture": "images/interface/woshijiangshi.png",
+    "From": "JSPVZ - 珍珑十绝系列",
+    "Creator": "sex",
+    "Difficulty": "5",
+    "Murmur": "f6d3cdd6",
+    "ID": "16499",
+    "MapKind": "0",
+    "SunNum": "250",
+    "Title": "[珍珑04].抗植战争第十一战——福州会战",
+    "C": "412942294329442945234629512952295406551156225323150225022602340214302430233016301130220613061211212931063207330735293629",
+    "More_Opt": {
+        "Deny_Use_Zombie": ["oBalloonZombie"]
+    }
+}, {
+    "Level_Picture": "images/interface/woshijiangshi.png",
+    "From": "JSPVZ - 珍珑十绝系列",
+    "Creator": "sex",
+    "Difficulty": "5",
+    "Murmur": "532166e0",
+    "ID": "16501",
+    "MapKind": "0",
+    "SunNum": "300",
+    "Title": "[珍珑05].抗植战争第十二战——第二次长沙战役",
+    "C": "453055304602560215021419241923192219211934113307321831223502360211061206130616112611252343114418422241065424531952195119",
+    "More_Opt": {
+        "Deny_Use_Zombie": ["oBalloonZombie"]
+    }
+}, {
+    "Level_Picture": "images/interface/woshijiangshi.png",
+    "From": "JSPVZ - 珍珑十绝系列",
+    "Creator": "白鹤亮翅",
+    "Difficulty": "7",
+    "Murmur": "cc1199d4",
+    "ID": "16565",
+    "MapKind": "0",
+    "SunNum": "300",
+    "Title": "[珍珑06].MJ，永远滴神！",
+    "C": "2111311132114211510952225309540955094509430944074105220723222405250233183518342211231518140212071305",
+    "More_Opt": {
+        "Deny_Use_Zombie": ["oBalloonZombie", "oPoleVaultingZombie", "oBucketheadZombie"]
+    }
+}, {
+    "Level_Picture": "images/interface/woshijiangshi.png",
+    "From": "JSPVZ - 珍珑十绝系列",
+    "Creator": "嘿嘿黑黑",
+    "Difficulty": "7",
+    "Murmur": "7a936e43",
+    "ID": "16566",
+    "MapKind": "0",
+    "SunNum": "150",
+    "Title": "[珍珑07].恶心死你的植物组合（难度中等）",
+    "C": "513042225322410654065506520456241230233014301124130622062102260724042502160215044402460245043607330632303130343043303522",
+    "More_Opt": {
+        "Deny_Use_Zombie": ["oBalloonZombie"]
+    }
+}, {
+    "Level_Picture": "images/interface/woshijiangshi.png",
+    "From": "JSPVZ - 珍珑十绝系列",
+    "Creator": "snz",
+    "Difficulty": "5",
+    "Murmur": "2a5404ad",
+    "ID": "16567",
+    "MapKind": "0",
+    "SunNum": "300",
+    "Title": "[珍珑08].僵尸的冒险之旅第6站:迷幻森林",
+    "C": "163735373637343033304318410651194237440245024602260225022402233721062219120513181429112415243224522455245637532354293118",
+    "More_Opt": {
+        "Deny_Use_Zombie": ["oBalloonZombie"]
+    }
+}, {
+    "Level_Picture": "images/interface/woshijiangshi.png",
+    "From": "JSPVZ - 珍珑十绝系列",
+    "Creator": "snz",
+    "Difficulty": "6",
+    "Murmur": "12b2c2f4",
+    "ID": "16569",
+    "MapKind": "0",
+    "SunNum": "350",
+    "Title": "[珍珑09].挑战关卡4",
+    "C": "560955095409160915021402111912195119523713375302350236223404310632193319410642044323442945244622262225242106220624292324",
+    "More_Opt": {
+        "Deny_Use_Zombie": ["oBalloonZombie", "oDancingZombie", "oFootballZombie"]
+    }
+}, {
+    "Level_Picture": "images/interface/woshijiangshi.png",
+    "From": "JSPVZ - 珍珑十绝系列",
+    "Creator": "白鹤亮翅",
+    "Difficulty": "6",
+    "Murmur": "dbe86fda",
+    "ID": "16570",
+    "MapKind": "0",
+    "SunNum": "150",
+    "Title": "[珍珑10].影 流 之 主",
+    "C": "3104330435043422322241242524221423142409210252065506510953095409440942094311451112061114131114221502",
+    "More_Opt": {
+        "Deny_Use_Zombie": ["oBalloonZombie"]
+    }
+}]
