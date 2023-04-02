@@ -17,13 +17,13 @@ window["oChat"] = { // 配置，可更改
 		Delete_UserName_List: [/WSSB/g, "无畏"] // 名称屏蔽，支持正则
 	}, //黑名单词语
 	White_User: {"用户": true}, // 白名单列表
-	Get_Visitor_Chat: false, // 是否接收游客信息
+	Get_Visitor_Chat: true, // 是否接收游客信息
 	Get_More_Chat: true, // 一秒接收多条信息
 	Get_One_Same_Chat: true, // 接收一个人连续相同信息
 	Get_System_Chat: true, // 接收系统消息
 	Get_Chat_Times: 1000, // 接收消息间隔，单位毫秒，安全考虑最低1000，从下一次接收开始。（未实装）
 	Open_WhiteList: false, // 是否开启白名单
-	Open_Face: false, // 开启表情系统
+	Open_Face: true, // 开启表情系统
 	Max_Save_Chat_Num: Infinity, // 最大消息容纳数（页面总最多容纳历史记录条数）
 	Max_Delete_Chat_Num: 100, // 最大删除消息量
 	Max_Face_Show_Num: 5, // 每条消息最大容纳表情数量
@@ -93,6 +93,10 @@ window["oChat"] = { // 配置，可更改
 			LastSendContent = tmp1[1]; // 更新上一次的聊天数据
 			return false;
 		};
+		let Check_Invalid_Continue = (SendContent, SendT, Sender, SendLevel) => { // 负责检测这个句子会不会出现在未开聊天屏蔽视野中，目前只有游客不会
+			if (SendLevel == 0) return false; // 如果是游客，那么返回 false，不更新
+			return true;
+		};
 		let Change_SendContent = (Str) => {
 			for (let Obj of Tp["oChat"]["Black_Word_Set"]["Change_Word_Vip"]) try{Str = Str.replaceAll(Obj["Word"], function(){return Obj["Change"];});}catch(why){console.error("替换失败",why);}; // 特殊替换
 			for (let Obj of Tp["oChat"]["Black_Word_Set"]["Change_Word_List"]) try{Str = Str.replaceAll(Obj, function(n, m){return n.split("").fill(Tp["oChat"]["Black_Word_Set"]["Change_Str"]).join("");});}catch(why){console.error("替换失败",why);}; // 普通替换
@@ -107,9 +111,10 @@ window["oChat"] = { // 配置，可更改
 			Ajax("GetChat.asp?T=" + (T - 1500) + "&" + Math.random(), "Get", "", function(Str) {
 				if (Str == "") return; //没有新发言
 				FinalShowTextNum = 0, Arr = Str["split"](",,,"), ChatLen = Arr["length"], i = Get_Last_Location(Arr, LastChatArr);
-				for (let _ = i - 1, tmp1, tmp2, tbl; _ >= 0; --_, tmp1 = null, tmp2 = null, tbl = false) { // 处理消息
+				for (let _ = i - 1, InvTmp, tmp1, tmp2, tbl; _ >= 0; --_, tmp1 = null, tmp2 = null, tbl = false) { // 处理消息
 					UseFace = 0, tmp1 = Arr[_]["split"](',,'), tmp2 = tmp1[1]["split"](','); // tmp1: [Time, str], tmp2: [Sender, Content];
-					SendContent = Decode_SendContent(tmp2[1]), SendT = parseInt(tmp1[0]), Sender = tmp2[0], SendLevel = parseInt(tmp2[2]), tbl = (FinalT == SendT), FinalT = SendT; // 发送内容解码、获取时间、等级、重置最后一句话时间
+					SendContent = Decode_SendContent(tmp2[1]), SendT = parseInt(tmp1[0]), Sender = tmp2[0], SendLevel = parseInt(tmp2[2]); // 发送内容解码、获取时间、等级
+					InvTmp = Check_Invalid_Continue(SendContent, SendT, Sender, SendLevel), tbl = !InvTmp || (FinalT == SendT), FinalT = (InvTmp ? SendT : FinalT); // 重置最后一句话时间
 
 					if (Check_Continue(SendContent, SendT, Sender, SendLevel, tmp1, tmp2)) continue; // 判断是否跳过本句显示
 					if (Tp["oChat"]["Black_Word_Set"]["Open_Black_Word"] == true) SendContent = Change_SendContent(SendContent); //检查替换
