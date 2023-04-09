@@ -1,4 +1,4 @@
-// lca + Ê÷ÉÏ¾àÀëÌâ
+// lca + æ ‘ä¸Šè·ç¦»
 // CF1304E: 1-Trees and Queries
 
 #include<bits/stdc++.h>
