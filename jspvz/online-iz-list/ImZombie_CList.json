@@ -44,20 +44,47 @@
     "C": "1122122413221402152221142209232724082524311731183217331733183417341835173527410241174202421743094317441745175118522753245430551461276208630664066522"
 },{
     "Level_Picture": "images/interface/woshijiangshi.png",
+    "From": "jspvz",
+    "Creator": "寒冰投手",
+    "Difficulty": "未知",
+    "Murmur": "8323a97f",
+    "ID": "74122",
+    "MapKind": 0,
+    "SunNum": 150,
+    "Title": "无中生有",
+    "C": "112212221311141115271629211122062327242425222607312232223322340235063604412942274311442445234622510252025306542355075604"
+},{
+    "Level_Picture": "images/interface/woshijiangshi.png",
     "From": "jspvz原创",
     "Creator": "我是帅",
     "Difficulty": "0",
-    "Murmur": "45c73ad9",
+    "Murmur": "7998515c",
     "ID": "101958",
     "MapKind": 0,
     "SunNum": 350,
     "Title": "西瓜计划——测试关",
-    "C": "130111011201210122012301330131013201420241025102520253024302",
+    "C": "130011001200210122012301330131013201420241025102520253024302",
     "More_Opt": {
         "Use_Zombie": ["oImp", "oZombie", "oConeheadZombie", "oPoleVaultingZombie", "oBucketheadZombie", "oScreenDoorZombie", "oFootballZombie"],
         "Allow_Use_Zombie": ["oFlagZombie"],
         "Deny_Use_Zombie": ["oConeheadZombie"],
-        "Plants_OPT": {"01": "oCabbage"},
+        "Plants_OPT": {"01": "oCabbage", "00": "oMelonPult"},
+        "Line_Pos": 6
+    }
+},{
+    "Level_Picture": "images/interface/woshijiangshi.png",
+    "From": "jspvz原创",
+    "Creator": "我是帅",
+    "Difficulty": "0",
+    "Murmur": "7998515c",
+    "ID": "101958",
+    "MapKind": 0,
+    "SunNum": 350,
+    "Title": "西瓜计划——测试关2",
+    "C": "130011001200210122012301330131013201420241025102520253024302",
+    "More_Opt": {
+        "Use_Zombie": ["oZombie", "oFlagZombie", "oConeheadZombie", "oPoleVaultingZombie", "oBucketheadZombie", "oNewspaperZombie", "oScreenDoorZombie", "oFootballZombie", "oDancingZombie", "oBackupDancer", "oDuckyTubeZombie1", "oDuckyTubeZombie2", "oDuckyTubeZombie3", "oSnorkelZombie", "oZomboni", "oDolphinRiderZombie", "oImp", "oJackinTheBoxZombie", "oBalloonZombie", "oSmallZombie", "oSmallFlagZombie", "oSmallDuckyTubeZombie1", "oSmallConeheadZombie", "oSmallFootballZombie", "oSmallSnorkelZombie"],
+        "Plants_OPT": {"01": "oCabbage", "00": "oMelonPult"},
         "Line_Pos": 6
     }
 },{
