@@ -214,4 +214,149 @@
     "More_Opt": {
         "Deny_Use_Zombie": ["oBalloonZombie"]
     }
+}
+
+,
+
+
+{
+    "Level_Picture": "images/interface/woshijiangshi.png",
+    "From": "JSPVZ - 新珍珑十绝系列",
+    "Creator": "白鹤亮翅",
+    "Difficulty": "未知",
+    "Murmur": "83e55c61",
+    "ID": "47676",
+    "MapKind": "0",
+    "SunNum": "350",
+    "Title": "[新珍珑01].神游天外",
+    "C": "2122110431041402132312232323222332233323341915141714160718225107540753235223410942224422430748074527461947065527560957095804272736272514260624142814352238093714",
+    "More_Opt": {
+        "Deny_Use_Zombie": []
+    }
+}, {
+    "Level_Picture": "images/interface/woshijiangshi.png",
+    "From": "JSPVZ - 新珍珑十绝系列",
+    "Creator": "snz",
+    "Difficulty": "未知",
+    "Murmur": "4d809504",
+    "ID": "20891",
+    "MapKind": "0",
+    "SunNum": "175",
+    "Title": "[新珍珑02].永动机（二）",
+    "C": "151914191624222421024202450246025337543735373637552256224422430613061106122923292418253026223418330631233229412351235229",
+    "More_Opt": {
+        "Deny_Use_Zombie": ["oBalloonZombie"]
+    }
+}, {
+    "Level_Picture": "images/interface/woshijiangshi.png",
+    "From": "JSPVZ - 新珍珑十绝系列",
+    "Creator": "snz",
+    "Difficulty": "未知",
+    "Murmur": "4279344e",
+    "ID": "116970",
+    "MapKind": "0",
+    "SunNum": "300",
+    "Title": "[新珍珑03].怕风怯雨",
+    "C": "1114121413141414172918291527162315311431163117311831243723062227212433243231321431143531352736063729382925022602342257225629540655275324412452145114523151314231433145314631473147244822451444144314421446272131",
+    "More_Opt": {
+        "Deny_Use_Zombie": []
+    }
+}, {
+    "Level_Picture": "images/interface/woshijiangshi.png",
+    "From": "JSPVZ - 新珍珑十绝系列",
+    "Creator": "一束羊蹄甲",
+    "Difficulty": "未知",
+    "Murmur": "af23ba5d",
+    "ID": "22947",
+    "MapKind": "0",
+    "SunNum": "350",
+    "Title": "[新珍珑04].李代桃僵",
+    "C": "22242322210711183118411812051311143753375422521451144314421134303307440732222427",
+    "More_Opt": {
+        "Deny_Use_Zombie": []
+    }
+}, {
+    "Level_Picture": "images/interface/woshijiangshi.png",
+    "From": "JSPVZ - 新珍珑十绝系列",
+    "Creator": "snz",
+    "Difficulty": "未知",
+    "Murmur": "6e8f1a1a",
+    "ID": "22635",
+    "MapKind": "0",
+    "SunNum": "325",
+    "Title": "[新珍珑05].前后夹击",
+    "C": "122411062324133722292106242925292604141415144614450216023524552436225622343744375437412942224323312951065229531132113322",
+    "More_Opt": {
+        "Deny_Use_Zombie": ["oBalloonZombie"]
+    }
+}, {
+    "Level_Picture": "images/interface/woshijiangshi.png",
+    "From": "JSPVZ - 新珍珑十绝系列",
+    "Creator": "亿只逗比",
+    "Difficulty": "未知",
+    "Murmur": "6d17d804",
+    "ID": "47663",
+    "MapKind": "0",
+    "SunNum": "200",
+    "Title": "[新珍珑06].精打细算",
+    "C": "5202510753275424551444144507430632062206410621273327310742272323342325232422352212231123133014141511",
+    "More_Opt": {
+        "Deny_Use_Zombie": []
+    }
+}, {
+    "Level_Picture": "images/interface/woshijiangshi.png",
+    "From": "JSPVZ - 新珍珑十绝系列",
+    "Creator": "风暴巫妖",
+    "Difficulty": "未知",
+    "Murmur": "569e83a6",
+    "ID": "115303",
+    "MapKind": "0",
+    "SunNum": "200",
+    "Title": "[新珍珑07].第一次世界大战",
+    "C": "22022331231121342434122414241308211912311127113131194323333433095127523452275324543153315423420834193227440941024131",
+    "More_Opt": {
+        "Deny_Use_Zombie": []
+    }
+}, {
+    "Level_Picture": "images/interface/woshijiangshi.png",
+    "From": "JSPVZ - 新珍珑十绝系列",
+    "Creator": "我是帅 & 寒冰投手",
+    "Difficulty": "未知",
+    "Murmur": "7d5a510e",
+    "ID": "116386",
+    "MapKind": "1",
+    "SunNum": "225",
+    "Title": "[新珍珑08].The World",
+    "C": "122215021601170617341634184313522102222423212427243425082623282327473117312741273417351735134222434744474517451355085606572758226103620463166405652766116729680953145429",
+    "More_Opt": {
+        "Deny_Use_Zombie": []
+    }
+}, {
+    "Level_Picture": "images/interface/woshijiangshi.png",
+    "From": "JSPVZ - 新珍珑十绝系列",
+    "Creator": "寒冰投手",
+    "Difficulty": "未知",
+    "Murmur": "3713163b",
+    "ID": "100214",
+    "MapKind": "0",
+    "SunNum": "150",
+    "Title": "[新珍珑09].无中生有",
+    "C": "442424243402332232223122350636042522462245232607422723272206412921114311112212221311151114271629560455075423530652025102",
+    "More_Opt": {
+        "Deny_Use_Zombie": []
+    }
+}, {
+    "Level_Picture": "images/interface/woshijiangshi.png",
+    "From": "JSPVZ - 新珍珑十绝系列",
+    "Creator": "PVZ_PvP丨G",
+    "Difficulty": "未知",
+    "Murmur": "a7b37a38",
+    "ID": "116631",
+    "MapKind": "0",
+    "SunNum": "225",
+    "Title": "[新珍珑10].时中之避",
+    "C": "57225622552254232541534133083408352232223107364137081441134112271137162217221523262724272718230722072118433044024118422251375202462747274507",
+    "More_Opt": {
+        "Deny_Use_Zombie": []
+    }
 }]
